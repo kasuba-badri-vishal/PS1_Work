@@ -8,6 +8,7 @@ client.create_database('badri_db')
 # client.switch_database('learn_db')
 resp = requests.get('https://api-pub.bitfinex.com/v2/stats1/funding.size:1m:fUSD/last')
 resp2 = requests.get('https://api-pub.bitfinex.com/v2/stats1/credits.size:1m:fUSD/last')
+
 if resp.status_code == 200:
     print("working")
     print(resp)
