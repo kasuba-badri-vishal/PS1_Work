@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+import requests
+
+=======
 # import requests
 
 # resp = requests.get('https://cointelegraph.com')
@@ -21,3 +25,4 @@ shots = response.json()['resultSets'][0]['rowSet']
 
 # do whatever we want with the shots data
 do_things(shots)
+>>>>>>> b3f91a3517d61a102fa535cf143f1c931e52180c
